@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  .roleta-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .seta {
+    position: absolute;
+    top: -31px;
+    left: 40%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: red;
+    z-index: 10;
+  }
+  
+  canvas {
+    border-radius: 50%;
+    border: 5px solid #333;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
